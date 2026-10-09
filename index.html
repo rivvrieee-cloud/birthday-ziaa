@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for my bubub 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sparkles" aria-hidden="true">♡ ✧ ♡</div>
+
+  <main>
+    <!-- HALAMAN 1: AMPLOP -->
+    <section id="welcome" class="page active">
+      <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+      <h1>Happy Birthday! 🎀</h1>
+      <p class="subtitle">someone special has a letter for you...</p>
+
+      <button id="envelope" class="envelope" aria-label="Buka surat">
+        💌
+      </button>
+
+      <p class="hint">tap the envelope to open ♡</p>
+    </section>
+
+    <!-- HALAMAN 2: KUE -->
+    <section id="cakePage" class="page">
+      <p class="eyebrow">IT'S YOUR SPECIAL DAY</p>
+      <h1>Make a wish! 🕯️</h1>
+      <p class="subtitle">Click the cake to blow out the candles.</p>
+
+      <button id="cake" class="cake" aria-label="Padamkan lilin">
+        <span id="flames">🕯️🕯️🕯️</span>
+        <span>🎂</span>
+      </button>
+
+      <p id="cakeMessage" class="hint">Make a wish first! ♡</p>
+      <button id="toGame" class="primary hidden">Next surprise →</button>
+    </section>
+
+    <!-- HALAMAN 3: MINI GAME -->
+    <section id="gamePage" class="page">
+      <p class="eyebrow">A TINY BIRTHDAY GAME</p>
+      <h1>Catch the Hearts! 💗</h1>
+      <p class="subtitle">Click 5 hearts to unlock your letter.</p>
+
+      <div class="score">
+        Hearts collected: <span id="score">0</span>/5
+      </div>
+
+      <div id="gameArea" aria-label="Area permainan hati">
+        <button class="heart" style="left:10%;top:15%">💗</button>
+        <button class="heart" style="left:65%;top:25%">💖</button>
+        <button class="heart" style="left:35%;top:55%">💕</button>
+        <button class="heart" style="left:78%;top:65%">💘</button>
+        <button class="heart" style="left:15%;top:75%">💝</button>
+      </div>
+
+      <p id="gameMessage" class="hint">You can do it, bub! ♡</p>
+      <button id="toLetter" class="primary hidden">open your letter 💌</button>
+    </section>
+
+    <!-- HALAMAN 4: SURAT -->
+    <section id="letterPage" class="page">
+      <p class="eyebrow">JUST FOR YOU</p>
+      <h1>Dear, ziaa♡</h1>
+
+      <div class="letter">
+        <p>happy birthday to one of the most special people in my life. 💗</p>
+
+        <p>
+          semoga di umur yang baru ini, kamu punya lebih banyak alasan
+          buat bahagia ya bub, lebih banyak hal baik yang datang ke kamu, dan lebih
+          n banyak doa yang akhirnya terkabulkan
+        </p>
+
+        <p>
+          thank you for being you. kamu harus tau kalo kamu berharga
+          di hidup aku bub, you deserve a life filled with genuine happiness and love.
+        </p>
+
+        <p>
+          whatever life brings, i hope you never lose the beautiful
+          person that you are. i'm so grateful to have you in my life.
+        </p>
+
+        <p class="signature">with love, riri🎀</p>
+      </div>
+
+      <button id="celebrate" class="primary">one last surprise ✨</button>
+      <p id="finalMessage" class="hint hidden">
+        here's to more memories, more laughter, and more years of friendship! 🩷
+      </p>
+    </section>
+  </main>
+
+  <footer>made with ♡, just for byubyub</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
